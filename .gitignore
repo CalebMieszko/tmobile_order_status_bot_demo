@@ -9,6 +9,7 @@ venv/
 env/
 
 # Caches and temp
+poetry.lock
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/

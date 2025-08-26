@@ -6,7 +6,7 @@ from httpx import AsyncClient
 from order_status_bot.app import app
 
 
-@pytest.mark.anyio
+@pytest.mark.asyncio
 async def test_conversation_flow():
     async with AsyncClient(app=app, base_url="http://test") as client:
         # Create a new conversation
