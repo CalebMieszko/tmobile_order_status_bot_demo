@@ -1,0 +1,4 @@
+order_id,status,item
+12345,shipped,Sneakers
+23456,processing,Laptop
+34567,canceled,Headphones
